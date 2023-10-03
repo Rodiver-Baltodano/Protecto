@@ -1,0 +1,495 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.body-home{
+    background-image: url(img/black-food-poster-chocolate-gourmet-powerpoint-background_337a7b3c55__960_540.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.titulo_principal{
+    font-size: 45px;
+    padding-bottom: 4rem;
+    margin-left: 25.4rem;
+    text-align: center;
+}
+button{
+    background: none;
+    border: none;
+    text-decoration: dashed;
+    font-size: 17px;
+    color: #000000;
+}
+.barra-s{
+    border-bottom-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    border: #0000002c solid 1rem;
+    margin-left: 9rem;
+    background-color: #fcefde;
+    margin-top: 0rem;
+    position: fixed;
+    color: #000;
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    background-repeat:no-repeat;
+    background-position: right center;
+    padding-left: 0;
+    height: 50px;
+    padding: 10px;
+    width: 80%;
+}
+h1{
+    font-size: 32px;
+}
+.text_rojonaranja{
+    color: #d64b05;
+}
+.catego{
+    margin-top: 0.425rem;
+    padding-left: 1rem;
+}
+ .contenedor-s{
+    display: grid;
+    position: relative;
+
+    width: 100%;
+    min-width: 700px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 40px;
+    text-decoration: dashed;
+    font-size: 17px;
+    grid-template-columns: repeat(5, 180px);
+}
+p,a{
+    text-decoration:dashed;
+    color: rgb(0, 0, 0);
+    margin: 0 auto;
+    font-size: 19px;
+}
+.catego ul{
+    position:absolute;
+    display: none;
+    list-style-type: none;
+    width: 20rem
+}
+.catego:hover ul{
+    display: block;
+
+}
+.catego ul li{
+    position: relative;
+    margin: 25px;
+    width: 10rem;
+}
+.catego ul li a{
+    color: black;
+    font-size: 16px;
+    background-color: rgba(215, 215, 215, 0.913);
+    color: #000;
+    padding: 10px 2rem 10px 30px;
+    width: 20rem;
+    border-radius: 1.6rem
+}
+#barato{
+    padding-right: 3.2rem;
+}
+#lujo{
+    padding-right: 2.7rem;
+}
+.catego ul li a:hover{
+    background-color: #f68d4c;
+}
+.textoMedio h2{
+    margin-left: 2rem;
+    margin-top: 7rem;
+    font-size: 35px;
+}
+.textoMedio div p{
+    font-size: 27px;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 170px;
+    background-image: url(img/café-café.png);
+    background-size: 475px 475px;
+    background-position: 675px -130px;
+    background-repeat: no-repeat;
+}
+.textoMedio{
+    margin-top: 3rem;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    grid-column: 1/6;
+    margin-left:9.2rem;
+    justify-content: center;
+    grid-column: 1/6;
+    width: 74.1rem;
+    height: 30rem;
+    justify-content: center;
+    grid-column: 1/6;
+    background-color: #5beca3ba;
+    border-bottom: #d64b05 0.4rem solid;
+}
+.texto-final{
+    background-color: #5bd1ecba;
+    margin-bottom: 6rem;
+}
+.texto-final div p{
+    background:url(img/campana.png);
+    background-size: 475px 475px;
+    background-position: 675px -100px;
+    background-repeat: no-repeat;
+}
+.contenedor{
+    padding-top: 8rem;
+    display: grid;
+    width: 100%;
+    min-width: 100px;
+    max-width: 1000px;
+    text-decoration: dashed;
+    font-size: 17px;
+    grid-template-columns: repeat(6, 175px);
+ }
+.contenedor .main{
+    margin-left:9.2rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    border-bottom: #d64b05 0.4rem solid;
+    background-color: #e9e0e084;
+    padding-left: 8.8rem;
+    padding-bottom: 4.6rem;
+    width: 65.3rem;
+    height: 375x;
+    grid-column: 1/6;
+    display: grid;
+    grid-row: 1;
+    grid-template-columns: 415px 550px;
+    align-items: center;
+}
+.descripcion_portada{
+    font-size: 18px;
+    grid-column: span 2;
+    margin-top: 2.5rem;
+}
+.descripcion_portada p{
+    margin-top: 0.5rem;
+    border-bottom-left-radius: 2rem;
+    width: 56.7rem;
+    font-size: 21px;
+    height: 4rem;
+    padding: 0.5rem 0 0rem 3rem;
+    background-color: rgb(71, 196, 25, 0.700);
+    background-size: 100px 100px;
+    background-position: 870px -20px;
+    background-image: url(img/café.png);
+    background-repeat: no-repeat;
+}
+.contenedor .main .borde_verde{
+    margin-top: 2rem;
+    border-right: rgb(71, 196, 25, 0.700) solid 4rem;
+    margin-left: 2rem;
+}
+.contenedor .main .texto_portada p{
+    font-size: 45px;
+    text-align: center;
+    text-decoration:solid;
+    color: #000;
+}
+/* Contenedor_main es para restaurantes */
+.body-restaurante{
+    background-image: url(img/elaboraciones-culinarias-basicas-fondos-claros-y-fondos-oscuros.jpg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedor_main{
+    margin-bottom: 10rem;
+    background-color: #eee6e6a0;
+    display: grid;
+    width: 85%;
+    margin: 0 auto;   
+    padding-bottom: 5rem;
+    padding-top: 10rem;
+    text-decoration: dashed;
+    font-size: 17px;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.contenedor_main .main{
+    padding-bottom: 0rem;
+    padding-right: 5rem;
+    grid-column: 1/6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor_main .main div{
+    margin: 0 auto;
+    margin-left: 8rem;
+    display: grid;
+    width: 800px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5rem;
+}
+.texto{
+    margin-top: 0.5rem;
+    font-size: 14.5px;
+    background-image: url(img/café.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: 140px 5px;
+    padding-bottom: 0.3rem;
+}
+.subtitulo{
+    font-size: 17px;
+}
+.contenedor_main .main div section img{
+    height: 135px;
+    width: 185px;
+}
+.contenedor_main .main div section{
+    width: 185px;
+    height: 250px;
+    padding: 20px 10px 4px 10px;
+    border-radius: 1rem;
+    background-color: rgb(236, 236, 231);
+}
+
+/* contenedor-a es para la barra de imágenes */
+.body {
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor main div button strong{
+    font-size: 25px;
+    text-decoration: dashed;
+}
+.contenedor .body{
+    grid-column: span 6;
+    margin: 0 auto;
+}
+.container-a {
+    margin-top: 11rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contenedor main div button{
+    background-color: rgba(244, 21, 21, 0.97);
+    color: #000;
+    margin: 10px;
+    margin-top: 15px;
+    margin-left: 0rem;
+    width: 11rem;
+    padding:13px 30px 13px 30px;
+    border-radius: 1.6rem
+}
+
+.body #sug{
+    font-size: 30px;
+    background-color: #dbb078d6;
+    padding: 75px;
+    border-top-right-radius: 10rem;
+    border-bottom-right-radius: 10rem;
+    animation: ancho 4s;
+    animation-fill-mode: forwards;
+    background-size: 250px 250px;
+    background-position: 270px 80px;
+    background-image: url(img/c565ffa13fbba63737b29ac65023eef4-frutas-y-verduras-14.png);
+    background-repeat: no-repeat;
+}
+@keyframes ancho{
+    from{width: 200px;}
+    to{width: 310px;}
+}
+.container-a .slider {
+    display: flex;
+    gap: 2.1rem;
+    width: 700px;
+    height: 340px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    padding-top: 1.2rem ;
+    padding-left: 1.35rem;
+}
+.container-a .control {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #02293b;
+    cursor: pointer;
+    object-fit: contain;
+    padding: 10px;
+}
+.targeta{
+    width: 200px;
+    transition: 1.1s;
+}
+.slider div article img{
+    border-radius: 2%;  
+    height: 175px;
+    width: 175px;
+    transition: 1.1s;
+}
+.slider article p{
+    font-size: 18px;
+}
+.slider article{
+    font-size: 10px;
+    text-align: center;
+    width: 175px;
+    height: 205px;
+    padding: 23px 15px 28px 15px;
+    border-bottom-left-radius: 12%;
+    border-bottom-right-radius: 12%;
+    border-top-left-radius: 12%;
+    border-top-right-radius: 5%;
+    transition: 1s;
+    background-color: rgba(227, 223, 223, 0.735);
+}
+.slider div article:hover{
+    margin: 0;
+    border: none;
+    width: 185px;
+    height: 215px;
+    box-shadow: 0.1rem 0.2rem 1.2rem 0.7rem rgb(120, 120, 120.4);
+}
+.slider div article:hover img{
+    border-radius: 2%;
+    width: 185px;
+    height: 185px;
+}
+.slider .targeta:hover{
+    margin: top 1.2rem;
+}
+.resalte{
+    grid-column: span 6;
+    background: url(img/cake.png);
+    background-attachment:local;
+    background-size: 130px 130px;
+    background-repeat: no-repeat;
+    background-position: 500px 170px;
+    width: 610px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 28rem;
+    padding-left: 10px;
+    margin-bottom: 7rem;
+    border-radius: 4rem;
+}
+.lema{
+        background: url(img/carne.png);
+    background-attachment:local;
+    background-size: 100px 75px;
+    background-repeat: no-repeat;
+    background-position: 40px 200px;
+    background-color: #d1d4ce64;
+    width: 610px;
+    height: 290px;
+    border-radius: 4rem;
+}
+.lema .texto{
+    padding-top: 2rem;
+    font-size: 25px;
+    text-align: center;
+}
+.lema #t{
+    color: #2a0911;
+    text-align: center;
+    font-size: 35px;
+    padding-top: 4rem;
+    font-family: 'Young Serif', serif;
+}
+footer{
+    padding-left: 2rem;
+    display: grid;
+    grid-template-columns: 600px 600px 350px;
+    height: 200px;
+    background-color: #f8dca2;
+}
+.con_footer{
+    display: flex;
+    justify-content:space-evenly;
+    width: 14rem;
+}
+.iconoFooter{
+    width: 50px;
+    height: 50px;
+}
+footer div, #copiright{
+    padding-top:2rem ;
+}
+.cont{
+    text-align: start;
+
+}
+.cont p, #copiright{
+    margin-bottom: 1rem;
+}
+/* Lineas para los locales */
+.carta{
+    padding-top: 8.5rem;
+    margin-bottom: 5rem ;
+}
+.contenedor-g{
+    border-radius: 2rem;
+    background-color: #c7c2c288;
+    width: 81%;
+    padding-right: 0.7rem;
+    height: 1100px;
+    margin: 0 9.75rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contenedor-g-a{
+    padding-top: 2rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    background-color: #e9e0e084;
+    grid-column: 1/2;
+    margin-left: 1.5rem;
+    padding-right: 2rem;
+    width: 550px;
+}
+.contenedor-g-b{
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+    background-color: #e9e0e084;
+    padding-top: 2rem;
+    margin-left: 1rem;
+    padding-left: 2rem;
+    padding-right: 0.8rem;
+    width: 575px;
+}
+.contenedor-g-a div, .contenedor-g-b div{
+    display: flex;
+    gap: 1rem;
+}
+.subtitulo{
+    font-size: 17px;
+}
+.contenedor-g  article img{
+    height: 130px;
+    width: 155px;
+}
+.contenedor-g article{
+    margin-top: 1.5rem;
+    width: 160px;
+    height: 200px;
+    padding: 20px 10px 4px 10px;
+    border-radius: 1rem;
+    background-color: rgb(236, 236, 231);
+}
+.contenedor-g section p{
+    color: #000;
+    padding: 10px;
+    height: 150px;
+    margin-top: 1rem;
+    text-align: left;
+    width: 525px;
+    border: #8f693aba 0.15rem solid;
+}
